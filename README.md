@@ -12,7 +12,7 @@
 
 ## Demo
 
-Check out the live demo of the project [here](#).
+Check out the live demo of the project [here](https://iron-man-nexus.vercel.app).
 
 ![Preview](./public/assets/preview.png)
 

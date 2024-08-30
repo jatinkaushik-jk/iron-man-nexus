@@ -13,10 +13,9 @@ const InitialLoader = ({ onCompleteFunction }) => {
 
         const tl = gsap.timeline({
             onComplete: () => onCompleteFunction(true),
-            paused: true,
+            delay: 13,
         });
 
-        document.body.onload = () => setTimeout(() => { tl.play() }, 13000);
         tl.to('#videoPlayback', { opacity: 0 });
         tl.fromTo(chars, { opacity: 0, y: 100 }, { opacity: 1, y: 0, stagger: 0.07, ease: 'power2' });
         tl.to('#text', { scale: 1.2, delay: 0.6 });
