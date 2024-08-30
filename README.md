@@ -14,7 +14,7 @@
 
 Check out the live demo of the project [here](#).
 
-![Preview](./src/assets/preview.png)
+![Preview](/assets/preview.png)
 
 ## Features
 
