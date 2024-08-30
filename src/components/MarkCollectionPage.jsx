@@ -24,7 +24,7 @@ const MarkCollectionPage = () => {
 
         const tlOne = gsap.timeline({
             scrollTrigger: {
-                trigger: '#MarkCollectionIntro',
+                trigger: '#MarkCollection',
                 scrub: 1,
                 start: 'top bottom',
                 end: '5% top',
@@ -46,7 +46,7 @@ const MarkCollectionPage = () => {
 
         const tlTwo = gsap.timeline({
             scrollTrigger: {
-                trigger: '#MarkCollections',
+                trigger: '#MarkCollectionSuits',
                 scrub: 1,
                 start: 'top bottom',
                 end: 'top center',
@@ -70,7 +70,7 @@ const MarkCollectionPage = () => {
 
     return (
         <>
-            <section id="MarkCollectionIntro" className="relative h-[24rem] xs:h-[30rem] lg:h-[38rem] xl:h-[45rem] w-full p-4 overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url(/assets/media_02.jpeg)' }}>
+            <section id="MarkCollection" className="relative h-[24rem] xs:h-[30rem] lg:h-[38rem] xl:h-[45rem] w-full p-4 overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url(/assets/media_02.jpeg)' }}>
                 <div className="CollectionBackground w-full h-full absolute top-0 left-0 overflow-hidden">
                     {/* Overlay Gradient */}
                     <div className="w-full h-full absolute top-0 left-0 overflow-hidden bg-gradient-to-b from-[rgba(0,0,0,0.8)] via-transparent to-[rgba(0,0,0,0.8)] z-[2]">
@@ -92,7 +92,7 @@ const MarkCollectionPage = () => {
 
             </section>
 
-            <section id="MarkCollections" className="relative h-[24rem] xs:h-[30rem] lg:h-[38rem] xl:h-[45rem] w-full p-4 overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url(/assets/media_02.jpeg)' }}>
+            <section id="MarkCollectionSuits" className="relative h-[24rem] xs:h-[30rem] lg:h-[38rem] xl:h-[45rem] w-full p-4 overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url(/assets/media_02.jpeg)' }}>
                 <div className="CollectionBackground w-full h-full absolute top-0 left-0 overflow-hidden">
                     {/* Overlay Gradient */}
                     <div className="w-full h-full absolute top-0 left-0 overflow-hidden bg-gradient-to-b from-[rgba(0,0,0,0.8)] via-transparent to-[rgba(0,0,0,0.8)] z-[2]">
