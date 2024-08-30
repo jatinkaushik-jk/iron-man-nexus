@@ -50,7 +50,6 @@ const MarkCollectionPage = () => {
                 scrub: 1,
                 start: 'top bottom',
                 end: 'top center',
-                markers: true
             }
         });
 
