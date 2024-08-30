@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "varien";
+  src: url("/src/assets/varien.otf");
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  color-scheme: light dark;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  --imRed: #e50b14;
+  --imDarkRed: #b9090f;
+  --imRed80: rgba(229, 11, 20, 0.8);
+  --imRed60: rgba(229, 11, 20, 0.6);
+  --mediaCardWidth: 15rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  cursor: context-menu;
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+nav a,
+.nav-anchor {
+  padding-inline: 0.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.nav-anchor:after {
+  content: "";
+  width: 0%;
+  height: 0.2rem;
+  background-color: #e50b14;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 400ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+.nav-anchor:hover::after {
+  width: 100%;
+}
