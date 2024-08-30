@@ -12,7 +12,7 @@ const MediaPage = () => {
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#Media',
-                scrub: true,
+                scrub: 2,
                 start: '20% bottom',
                 end: 'top top',
             }
@@ -21,16 +21,16 @@ const MediaPage = () => {
     })
 
     const cards = [
-        { id: '_01', src: './src/assets/media_01.jpeg', size: 'small' },
-        { id: '_02', src: './src/assets/media_02.jpeg', size: 'small' },
-        { id: '_03', src: './src/assets/media_03.jpeg', size: 'large' },
-        { id: '_04', src: './src/assets/media_04.jpeg', size: 'medium' },
-        { id: '_05', src: './src/assets/media_05.jpeg', size: 'small' },
-        { id: '_06', src: './src/assets/media_06.jpeg', size: 'large' },
-        { id: '_07', src: './src/assets/media_07.jpeg', size: 'large' },
-        { id: '_08', src: './src/assets/media_08.jpeg', size: 'medium' },
-        { id: '_09', src: './src/assets/media_09.jpeg', size: 'medium' },
-        { id: '_10', src: './src/assets/media_10.jpeg', size: 'medium' },
+        { id: '_01', src: '../src/assets/media_01.jpeg', size: 'small' },
+        { id: '_02', src: '../src/assets/media_02.jpeg', size: 'small' },
+        { id: '_03', src: '../src/assets/media_03.jpeg', size: 'large' },
+        { id: '_04', src: '../src/assets/media_04.jpeg', size: 'medium' },
+        { id: '_05', src: '../src/assets/media_05.jpeg', size: 'small' },
+        { id: '_06', src: '../src/assets/media_06.jpeg', size: 'large' },
+        { id: '_07', src: '../src/assets/media_07.jpeg', size: 'large' },
+        { id: '_08', src: '../src/assets/media_08.jpeg', size: 'medium' },
+        { id: '_09', src: '../src/assets/media_09.jpeg', size: 'medium' },
+        { id: '_10', src: '../src/assets/media_10.jpeg', size: 'medium' },
     ]
 
     return (
