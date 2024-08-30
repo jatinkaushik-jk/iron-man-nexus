@@ -72,7 +72,7 @@ const ArcReactorPage = () => {
                     </div>
                 </div>
                 <div id="arImg" className="w-40 xs:w-48 sm:w-64 md:w-72 lg:w-80 h-40 xs:h-48 sm:h-64 md:h-72 lg:h-80 xl:w-96 xl:h-96 fixed z-[-1] bottom-[-1%] right-[-1%] opacity-100" style={{ clipPath: ' polygon(1% 1%, 1% 99%, 99% 99%, 99% 1%)' }} >
-                    <img className="w-full h-full object-center object-contain aspect-square" src="./src/assets/arcReactorGIF.gif" alt="Arc Reactor" />
+                    <img className="w-full h-full object-center object-contain aspect-square" src="/assets/arcReactorGIF.gif" alt="Arc Reactor" />
                 </div>
             </section>
         </>

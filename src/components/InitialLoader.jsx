@@ -29,7 +29,7 @@ const InitialLoader = ({ onCompleteFunction }) => {
     return (
         <section id="animationSection" className="relative w-full h-screen bg-[rgb(171,2,9)]">
             <div id="videoPlayback" className="absolute top-0 left-0 w-full h-full">
-                <video src="./src/assets/videoplayback.mp4" itemType="video/mp4" className="w-full h-full object-cover object-center aspect-video" autoPlay muted controls={false}></video>
+                <video src="/assets/videoplayback.mp4" itemType="video/mp4" className="w-full h-full object-cover object-center aspect-video" autoPlay muted controls={false}></video>
             </div>
             <div className="absolute top-0 left-0 w-full h-full font-[varien] flex justify-center items-center">
                 <div className="text-4xl xs:text-5xl sm:text-7xl lg:text-8xl xl:text-9xl" id="text" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' }}>I am Iron Man</div>

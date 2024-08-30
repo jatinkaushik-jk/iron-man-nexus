@@ -41,11 +41,11 @@ const TonyStarkPage = () => {
 
 
     return (
-        <section id="TonyStark" className="relative h-[30rem] xs:h-[35rem] md:h-[38rem] lg:h-[43rem] xl:h-[50rem] w-full overflow-hidden bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(/src/assets/about-backdrop.jpg)' }}>
+        <section id="TonyStark" className="relative h-[30rem] xs:h-[35rem] md:h-[38rem] lg:h-[43rem] xl:h-[50rem] w-full overflow-hidden bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(/assets/about-backdrop.jpg)' }}>
 
             <div id="about-subject" className="hidden md:block w-full h-full absolute top-0 left-0 overflow-hidden">
                 <div className="w-full h-full absolute top-0 left-0 overflow-hidden z-[6]">
-                    <img src="/src/assets/about-subject.png" alt="Iron Man" className="w-full h-full object-cover object-top " />
+                    <img src="/assets/about-subject.png" alt="Iron Man" className="w-full h-full object-cover object-top " />
                 </div>
             </div>
 

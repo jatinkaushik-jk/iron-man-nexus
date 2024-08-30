@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareBehance } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -66,12 +66,12 @@ const LandingPage = () => {
                 <div id="landingBackground" className="w-full h-full absolute top-0 left-0 overflow-hidden">
                     {/* Background Video */}
                     <div className="w-full h-full">
-                        <video src="/src/assets/iron-man-backdrop-video.mp4" type="video/mp4" className="w-full h-full object-center object-cover " autoPlay muted loop></video>
+                        <video src="/assets/iron-man-backdrop-video.mp4" type="video/mp4" className="w-full h-full object-center object-cover " autoPlay muted loop></video>
                     </div>
 
                     {/* Abstract Tech Design */}
                     <div className="w-full h-full absolute top-0 left-0 overflow-hidden mix-blend-multiply z-[6]">
-                        <img src="/src/assets/abstract-tech-design.jpg" alt="Abstract Tech Design" className="w-full h-full object-cover object-center" />
+                        <img src="/assets/abstract-tech-design.jpg" alt="Abstract Tech Design" className="w-full h-full object-cover object-center" />
                     </div>
                     {/* Overlay Gradient */}
                     <div className="w-full h-full absolute top-0 left-0 overflow-hidden bg-gradient-to-b from-[rgba(0,0,0,0.8)] via-transparent to-[rgba(0,0,0,0.8)] z-[2]">
@@ -112,7 +112,7 @@ const LandingPage = () => {
 
                     {/* Subject */}
                     <div className="w-0 h-0 xs:w-full xs:h-full">
-                        <img id="subject" ref={subjectRef} className="absolute w-[48%] xs:w-[55%] sm:w-[50%] z-[15] top-[40%] translate-y-[-50%] xs:translate-y-0 xs:top-10 sm:top-0 md:top-[-8%] right-[-4%] md:right-0 transition-transform duration-1000" src="/src/assets/home-subject.svg" alt="Iron Man" />
+                        <img id="subject" ref={subjectRef} className="absolute w-[48%] xs:w-[55%] sm:w-[50%] z-[15] top-[40%] translate-y-[-50%] xs:translate-y-0 xs:top-10 sm:top-0 md:top-[-8%] right-[-4%] md:right-0 transition-transform duration-1000" src="/assets/home-subject.svg" alt="Iron Man" />
                     </div>
 
                 </div>

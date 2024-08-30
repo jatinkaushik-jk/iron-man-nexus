@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex flex-col p-4">
                 <div className="flex flex-row gap-10 items-center justify-evenly my-6 mb-10 flex-wrap">
                     <div className="flex flex-col justify-center items-center gap-y-10">
-                        <div><img src="./src/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></div>
+                        <div><img src="/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></div>
                         <div className="flex flex-col  items-start justify-center gap-y-1 font-semibold tracking-wider">
                             <a className="hover:text-[#ccc] transition-colors" href="https://www.marvel.com/corporate/about" target="_blank" rel="noopener noreferrer">ABOUT MARVEL</a>
                             <a className="hover:text-[#ccc] transition-colors" href="https://help.marvel.com" target="_blank" rel="noopener noreferrer">HELP/FAQS</a>
@@ -26,10 +26,10 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col gap-y-4 items-center justify-center">
                         <a href="https://www.marvel.com/insider?cid=Dcom_navigation_20200929_insider_footer" target="_blank" rel="noopener noreferrer">
-                            <img className="w-20" src="./src/assets/footer-image-01.png" alt="Marvel Insider" />
+                            <img className="w-20" src="/assets/footer-image-01.png" alt="Marvel Insider" />
                         </a>
                         <a href="https://www.marvel.com/unlimited?cid=dcom_navigation_20220712_unlimited_footer" target="_blank" rel="noopener noreferrer">
-                            <img className="w-20" src="./src/assets/footer-image-02.png" alt="Marvel Unlimited" />
+                            <img className="w-20" src="/assets/footer-image-02.png" alt="Marvel Unlimited" />
                         </a>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-y-4 font-semibold tracking-wider">

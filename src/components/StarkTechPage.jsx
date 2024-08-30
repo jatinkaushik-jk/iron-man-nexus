@@ -86,7 +86,7 @@ const StarkTechPage = () => {
     }, []);
 
     return (
-        <section id="StarkTech" className="relative h-max w-full p-4 overflow-hidden bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url(/src/assets/tech-backdrop.jpeg)' }}>
+        <section id="StarkTech" className="relative h-max w-full p-4 overflow-hidden bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url(/assets/tech-backdrop.jpeg)' }}>
             <div id="StarkTechBackground" className="w-full h-full absolute top-0 left-0 overflow-hidden">
                 {/* Overlay Gradient */}
                 <div className="w-full h-full absolute top-0 left-0 overflow-hidden bg-gradient-to-b from-[rgba(0,0,0,0.8)] via-transparent to-[rgba(0,0,0,0.8)]">
@@ -106,25 +106,25 @@ const StarkTechPage = () => {
                     </p>
                 </div>
                 <div className="body-content p-4 px-10 lg:mt-16 my-10">
-                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="./src/assets/arcReactorImage.jpeg">
+                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="/assets/arcReactorImage.jpeg">
                         <div className="ps-6 px-2 py-3">
                             <h3 className="font-[varien] text-xl tracking-wide">Arc Reactor</h3>
                             <p className="pt-2">A clean energy source powering Iron Man’s suits and a symbol of limitless potential.</p>
                         </div>
                     </div>
-                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="./src/assets/jarvisImage.jpeg">
+                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="/assets/jarvisImage.jpeg">
                         <div className="ps-6 px-2 py-3">
                             <h3 className="font-[varien] text-xl tracking-wide">JARVIS (AI System)</h3>
                             <p className="pt-2">An advanced AI assistant managing Tony’s tech, suits, and operations.</p>
                         </div>
                     </div>
-                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="./src/assets/repulsorTechnologyImage.jpeg">
+                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="/assets/repulsorTechnologyImage.jpeg">
                         <div className="ps-6 px-2 py-3">
                             <h3 className="font-[varien] text-xl tracking-wide">Repulsor Technology</h3>
                             <p className="pt-2">Powerful energy beams used for flight, combat, and defense in the Iron Man suits.</p>
                         </div>
                     </div>
-                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="./src/assets/nanoTechnologyImage.jpeg">
+                    <div className="p-2 bg-transparent border-b-2 border-white hover:bg-[rgba(0,0,0,0.6)] transition-colors duration-500" data-hover-image="/assets/nanoTechnologyImage.jpeg">
                         <div className="ps-6 px-2 py-3">
                             <h3 className="font-[varien] text-xl tracking-wide">Nano Technology</h3>
                             <p className="pt-2">Adaptive nanobots that allow rapid suit deployment and on-the-fly modifications.</p>

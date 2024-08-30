@@ -1,4 +1,3 @@
-import { useState } from "react";
 import MediaCard from "./MediaCard";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -21,16 +20,16 @@ const MediaPage = () => {
     })
 
     const cards = [
-        { id: '_01', src: '../src/assets/media_01.jpeg', size: 'small' },
-        { id: '_02', src: '../src/assets/media_02.jpeg', size: 'small' },
-        { id: '_03', src: '../src/assets/media_03.jpeg', size: 'large' },
-        { id: '_04', src: '../src/assets/media_04.jpeg', size: 'medium' },
-        { id: '_05', src: '../src/assets/media_05.jpeg', size: 'small' },
-        { id: '_06', src: '../src/assets/media_06.jpeg', size: 'large' },
-        { id: '_07', src: '../src/assets/media_07.jpeg', size: 'large' },
-        { id: '_08', src: '../src/assets/media_08.jpeg', size: 'medium' },
-        { id: '_09', src: '../src/assets/media_09.jpeg', size: 'medium' },
-        { id: '_10', src: '../src/assets/media_10.jpeg', size: 'medium' },
+        { id: '_01', src: '/assets/media_01.jpeg', size: 'small' },
+        { id: '_02', src: '/assets/media_02.jpeg', size: 'small' },
+        { id: '_03', src: '/assets/media_03.jpeg', size: 'large' },
+        { id: '_04', src: '/assets/media_04.jpeg', size: 'medium' },
+        { id: '_05', src: '/assets/media_05.jpeg', size: 'small' },
+        { id: '_06', src: '/assets/media_06.jpeg', size: 'large' },
+        { id: '_07', src: '/assets/media_07.jpeg', size: 'large' },
+        { id: '_08', src: '/assets/media_08.jpeg', size: 'medium' },
+        { id: '_09', src: '/assets/media_09.jpeg', size: 'medium' },
+        { id: '_10', src: '/assets/media_10.jpeg', size: 'medium' },
     ]
 
     return (

@@ -89,7 +89,7 @@ const Navbar = () => {
                         <a href="#StarkTech" className="nav-anchor">STARK TECH</a>
                     </div>
                     <div id="nav-center" className="w-96 h-full flex items-center justify-evenly text-center">
-                        <a className="mx-1" href="#" target="_blank" rel="noopener noreferrer"><img src="/src/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></a>
+                        <a className="mx-1" href="#" target="_blank" rel="noopener noreferrer"><img src="/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></a>
                     </div>
                     <div id="nav-right" className="w-full h-full flex flexx-row justify-evenly items-center gap-x-0 lg:gap-x-2">
                         <a href="#ArcReactor" className="nav-anchor">ARC RECTOR</a>
@@ -100,7 +100,7 @@ const Navbar = () => {
                 {/* Navbar for small screen devices */}
                 <nav className="md:hidden w-full py-2 flex flex-row justify-between items-center">
                     <div id="nav-center" className="w-full flex items-center justify-center text-center mx-auto py-2">
-                        <a href="#" target="_blank" rel="noopener noreferrer"><img className="h-full w-full object-center object-contain" src="/src/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img className="h-full w-full object-center object-contain" src="/assets/marvel-studios-logo.svg" alt="Marvel Studios Logo" /></a>
                     </div>
                     <button id="menuBtn" className="text-4xl cursor-pointer pe-2" onClick={handleMenuClick}>
                         {!isOpen && <RiMenu4Line className="animate-spin-once" />}
